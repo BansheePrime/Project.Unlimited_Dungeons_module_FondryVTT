@@ -1,0 +1,217 @@
+{
+  "name": "unlimited-dungeons",
+  "title": "Unlimited Dungeons Add-on",
+  "description": "A collection of compendia to play the Dungeon World hack Unlimited Dungeons by the Unlimited Dungeons contributors",
+  "author": "friendlylambda",
+  "version": "1.0.0",
+  "minimumCoreVersion": 9,
+  "compatibleCoreVersion": 9,
+  "system": [
+    "dungeonworld"
+  ],
+  "esmodules": [
+    "modules/settings.js",
+    "modules/actorUpdate.js"
+  ],
+  "dependencies": [
+    {
+      "name": "dungeonworld",
+      "type": "system"
+    }
+  ],
+  "packs": [
+    {
+      "label": "UD Basic Moves",
+      "type": "Item",
+      "name": "ud-basic-moves",
+      "path": "packs/ud-basic-moves.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "label": "UD Classes",
+      "type": "Item",
+      "name": "ud-classes",
+      "path": "packs/ud-classes.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "label": "UD The Fighter Moves",
+      "type": "Item",
+      "name": "ud-the-fighter-moves",
+      "path": "packs/ud-the-fighter-moves.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "UD The Thief Moves",
+      "type": "Item",
+      "name": "ud-the-thief-moves",
+      "path": "packs/ud-the-thief-moves.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "UD The Wizard Moves",
+      "type": "Item",
+      "name": "ud-the-wizard-moves",
+      "path": "packs/ud-the-wizard-moves.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "UD The Cleric Moves",
+      "type": "Item",
+      "name": "ud-the-cleric-moves",
+      "path": "packs/ud-the-cleric-moves.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "UD The Barbarian Moves",
+      "type": "Item",
+      "name": "ud-the-barbarian-moves",
+      "path": "packs/ud-the-barbarian-moves.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "UD The Ranger Moves",
+      "type": "Item",
+      "name": "ud-the-ranger-moves",
+      "path": "packs/ud-the-ranger-moves.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "UD The Immolator Moves",
+      "type": "Item",
+      "name": "ud-the-immolator-moves",
+      "path": "packs/ud-the-immolator-moves.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "UD The Bard Moves",
+      "type": "Item",
+      "name": "ud-the-bard-moves",
+      "path": "packs/ud-the-bard-moves.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "UD The Bard Songs",
+      "type": "Item",
+      "name": "ud-the-bard-songs",
+      "path": "packs/ud-the-bard-songs.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "UD The Paladin Moves",
+      "type": "Item",
+      "name": "ud-the-paladin-moves",
+      "path": "packs/ud-the-paladin-moves.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "UD The Druid Moves",
+      "type": "Item",
+      "name": "ud-the-druid-moves",
+      "path": "packs/ud-the-druid-moves.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "UD The Wizard Spell Domains",
+      "type": "Item",
+      "name": "ud-the-wizard-spell-domains",
+      "path": "packs/ud-the-wizard-spell-domains.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "UD Equipment (Weapons)",
+      "type": "Item",
+      "name": "ud-equipment-weapons",
+      "path": "packs/ud-equipment-weapons.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "UD Equipment (Armor)",
+      "type": "Item",
+      "name": "ud-equipment-armor",
+      "path": "packs/ud-equipment-armor.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "UD Equipment (Gear)",
+      "type": "Item",
+      "name": "ud-equipment-gear",
+      "path": "packs/ud-equipment-gear.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "UD Rules & Systems",
+      "type": "JournalEntry",
+      "entity": "JournalEntry",
+      "name": "ud-rules-and-systems",
+      "path": "packs/ud-rules-and-systems.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false
+    },
+    {
+      "label": "UD Treasure Tags",
+      "type": "Item",
+      "name": "treasure-tags",
+      "path": "packs/treasure-tags.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Item"
+    }
+  ],
+  "url": "https://gitlab.com/friendlylambda/unlimited-dungeons-module",
+  "manifest": "https://gitlab.com/friendlylambda/unlimited-dungeons-module/-/raw/main/module.json",
+  "download": "https://gitlab.com/friendlylambda/unlimited-dungeons-module/-/archive/v1.0.0/unlimited-dungeons-module-v1.0.0.zip"
+}

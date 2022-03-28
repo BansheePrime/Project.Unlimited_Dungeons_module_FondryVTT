@@ -3,7 +3,7 @@
   "title": "Unlimited Dungeons Add-on",
   "description": "A collection of compendia to play the Dungeon World hack Unlimited Dungeons by the Unlimited Dungeons contributors",
   "author": "friendlylambda",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "minimumCoreVersion": 9,
   "compatibleCoreVersion": 9,
   "system": [
@@ -209,9 +209,19 @@
       "package": "world",
       "private": false,
       "entity": "Item"
+    },
+    {
+      "label": "UD Macros",
+      "type": "Macro",
+      "name": "macros",
+      "path": "packs/ud-macros.db",
+      "system": "dungeonworld",
+      "package": "world",
+      "private": false,
+      "entity": "Macro"
     }
   ],
   "url": "https://gitlab.com/friendlylambda/unlimited-dungeons-module",
   "manifest": "https://gitlab.com/friendlylambda/unlimited-dungeons-module/-/raw/main/module.json",
-  "download": "https://gitlab.com/friendlylambda/unlimited-dungeons-module/-/archive/v1.0.1/unlimited-dungeons-module-v1.0.1.zip"
+  "download": "https://gitlab.com/friendlylambda/unlimited-dungeons-module/-/archive/v1.0.2/unlimited-dungeons-module-v1.0.2.zip"
 }

@@ -3,7 +3,7 @@
   "title": "Unlimited Dungeons Add-on",
   "description": "A collection of compendia to play the Dungeon World hack Unlimited Dungeons by the Unlimited Dungeons contributors",
   "author": "friendlylambda",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "minimumCoreVersion": 9,
   "compatibleCoreVersion": 9,
   "system": [
@@ -223,5 +223,5 @@
   ],
   "url": "https://gitlab.com/friendlylambda/unlimited-dungeons-module",
   "manifest": "https://gitlab.com/friendlylambda/unlimited-dungeons-module/-/raw/main/module.json",
-  "download": "https://gitlab.com/friendlylambda/unlimited-dungeons-module/-/archive/v1.0.2/unlimited-dungeons-module-v1.0.2.zip"
+  "download": "https://gitlab.com/friendlylambda/unlimited-dungeons-module/-/archive/v1.0.4/unlimited-dungeons-module-v1.0.4.zip"
 }

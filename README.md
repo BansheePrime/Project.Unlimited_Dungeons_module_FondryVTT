@@ -4,28 +4,6 @@ An add-on module for the Dungeon World system for Foundry VTT to enable playing 
 
 All content is sourced from the Unlimited Dungeons document and ported into the FoundryVTT module by FriendlyLambda. I tried to keep textual edits as minimal as possible and only change wording where it made references clearer (such as character sheet marks vs physical paper checkboxes).
 
-# Rules Note
-
-All of the unlimited dungeon rules should work with this module **except** debility checkboxes, which currently apply -1 rather than disadvantage. I plan to issue a PR to the Dungeon World system module so this is supported in the near future.
-
-# Credit
-
-This module is based on the terrific work of [Mango Feet](https://gitlab.com/mangofeet) and their [Homebrew World](https://gitlab.com/mangofeet/homebrew-world-module) module. Thank you to [Mango Feet](https://gitlab.com/mangofeet) & [Matt Smith](https://gitlab.com/Asacolips) for their excellent system & add-on work to support Dungeon World in FoundryVTT.
-
-# Install
-
-First install the Dungeon World system, then use the following URL to install this module.
-
-`https://gitlab.com/friendlylambda/unlimited-dungeons-module/-/raw/main/module.json`
-
-The module will configure the dungeonworld system settings for playing Unlimited Dungeons automatically.
-
-# Uninstall
-
-When removing this module from your game world, the settings in the "System Settings" page will remain. You can change them individually or use the "Reset to Defaults" button at the bottom of the page to revert everything back to it's default state in the Dungeon World system.
-
-Ability scores/mods will need to be updated when turning this module on and off as well. Any content you are using from this module's compendia should be imported to the game world so that it will not be missing.
-
 # Licenses
 
 All HTML, CSS, and JS is licensed under the [MIT License](https://gitlab.com/mangofeet/homebrew-world-module/-/raw/main/LICENSE.txt).

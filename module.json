@@ -4,7 +4,7 @@
   "description": "A collection of compendia to play the Dungeon World hack Unlimited Dungeons by the Unlimited Dungeons contributors",
   "author": "BansheePrime",
   "version": "1.0.11",
-  "minimumCoreVersion": 9,
+  "minimumCoreVersion": 11,
   "compatibleCoreVersion": 11,
   "system": [
     "dungeonworld"
